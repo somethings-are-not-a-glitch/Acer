@@ -1,0 +1,27 @@
+.graphics {
+    display:flex;
+    justify-content: center;
+    gap:64px;
+    margin-top:64px;
+    align-items: center;
+    color:white;
+}
+.graphics .box {
+    float:left;
+}
+
+.graphics h2 {
+    font-size: 24px;;
+}
+
+.graphics button {
+    border:1px solid gray;
+    background-color:transparent;
+    color:white;
+    padding:16px 32px;
+    border-radius:24px;
+}
+
+.graphics p {
+    color:rgb(178,168,168);
+}

@@ -1,0 +1,133 @@
+.brand {
+    padding:48px;
+    color:white;
+}
+
+.brand nav {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+.brand ul {
+    display:flex;
+    text-decoration: none;
+    gap:16px;
+}
+
+.brand a {
+    text-decoration: none;
+    color:white;
+}
+
+.brand li {
+list-style: none;
+}
+
+.header-icons {
+    display: flex;
+    gap: 24px;
+    z-index: 1;
+}
+
+/* .brand .bgimage {
+    background:url(../../assets/setupDesktop.jpeg);
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+    background-position:center;
+}
+
+.brand .bgimage:after {
+    position:absolute;
+    z-index:-1;
+    content:"";
+    background: rgba(0,0,0,0.7);
+    width:100%;
+    height:100%;
+    top:0;
+} */
+ .brand .bgimage {
+
+    background: url("../../assets/setupDesktop.jpeg");
+
+    height: 100vh;
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+    background-position: center;
+
+    position: relative;
+
+    z-index: 1;
+
+}
+
+ 
+
+.brand .bgimage:after {
+
+    position: absolute;
+    content: "";
+    background: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+}
+.collumn1{
+    width:400px;
+}
+
+h1{
+text-transform: uppercase;
+}
+
+.brand .box{
+    float:left;
+}
+
+.brand button {
+    border-radius: 16px;
+    background-color: transparent;
+    color:white;
+    padding: 8px 16px;
+}
+
+.Trailer {
+    background-color: rgb(61, 61, 61,0.5);
+    text-align: center;
+    padding: 0 64px;
+    width:300px;
+    border-radius: 25px;
+}
+
+.Trailer p{
+    font-size: 12px;
+}
+
+.links {
+    transform:rotate(90deg);
+    position: absolute;
+    right:-80px;
+    top:300px;
+    font-size:12px;
+    justify-content: space-between;
+    color:white;
+    display: flex;
+    flex-direction: row;
+    gap:12px;
+}
+.content {
+
+    display: flex;
+
+    justify-content: space-around;
+
+    align-items: center;
+
+}

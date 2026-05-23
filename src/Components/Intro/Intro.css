@@ -1,0 +1,40 @@
+.intro .bgImage{
+    color: white;
+    background: url("../../assets/introBackground.jpeg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    position: relative;
+}
+
+.box {
+    width: 64px;
+    height: 4px;
+    background-color: red;
+    margin: auto;
+    border-radius: 2px;
+}
+
+.bgImage::before {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    content: "";
+    inset: 0;
+    width: 100%;
+    z-index: 1;
+    height: 100%;
+}  
+
+img, h3, p, .box {
+    position: relative;
+    z-index: 2;
+}
+
+.intro h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.intro p {
+    color: rgb(189, 187, 187);
+}

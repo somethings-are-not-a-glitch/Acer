@@ -1,0 +1,36 @@
+.gaming {
+    color:white;
+    align-items: center;
+    display:flex;
+    justify-content: space-between;
+}
+.left {
+    float:left;
+    margin-left:100px;
+}
+
+.left p {
+    font-size:12px;
+    color:rgb(152, 152, 152);
+}
+
+.left a {
+    text-decoration: none;
+    color:red;
+}
+
+.gaming-center {
+    display:flex;
+    font-size:12;
+    justify-content: space-between;
+    padding: 0 48px;
+    color:lightgrey;
+}
+
+.gaming-center p {
+    margin-top:24px;
+}
+
+.center-right img {
+    margin-top: 24px;
+}

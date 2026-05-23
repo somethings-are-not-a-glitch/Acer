@@ -1,0 +1,31 @@
+.footer {
+    color:white;
+    display: flex;
+    padding:48px;
+    align-items: center;
+}
+.left-apps {
+ display: flex;
+ gap:12px;
+}
+
+
+.footer p {
+    color:rgb(118, 117, 117);
+    font-size:15px;
+}
+
+.footer h2 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
+
+.icon {
+    width:37px;
+    height:37px;
+    color:white;
+}
+
+.right-text{
+    margin-left:500px;
+}
