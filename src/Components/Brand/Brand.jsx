@@ -1,6 +1,6 @@
 import React from 'react'
 import './Brand.css'
-import Brandimage from '../../assets/Brand_image.png'
+
 
 export default function Brand() {
   return (
@@ -60,7 +60,7 @@ export default function Brand() {
 
 
           <div className='collumn2'>
-<img width={350} src={Brandimage} alt='bomboclat'/>
+
 <div className='links'>
   <a href='#'>snapchat</a>
   <a href='#'>youtube</a>
